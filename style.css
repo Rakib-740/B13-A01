@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,13 @@
 
 /* Shared styles */
 
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
-.btn{
+.btn {
     padding: 12px 16px;
     background-color: #469165;
     color: #FFFFFF;
@@ -24,17 +24,17 @@
 
 /* Main styles */
 
-.navber nav{
+.navber nav {
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
 }
 
-.navber nav img{
+.navber nav img {
     padding: 16px 0 16px 120px;
 }
 
-.navber nav ul{
+.navber nav ul {
     display: flex;
     list-style: none;
     gap: 32px;
@@ -42,16 +42,86 @@
     opacity: 0.9;
 }
 
-.navber nav ul li a{
+.navber nav ul li a {
     text-decoration: none;
     color: #000000;
     font-size: 16px;
     line-height: 152%;
 }
-.navber nav ul li a:hover{
+
+.navber nav ul li a:hover {
     color: #469165;
 }
-.navber nav .nav-btn{
+
+.navber nav .nav-btn {
     padding: 24px 120px 0 24px;
+}
+
+.hero {
+    background: url("./assets/hero-bg.png"), rgba(0, 25, 49, 0.8);
+    ;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+}
+
+.hero-container {
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin: 0px 120px 0px 120px;
+}
+
+.hero-container .sub-heading {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    color: #469165;
+    line-height: 19px;
+    margin-top: 116px;
+    padding: 8px 12px;
+}
+
+.hero-container h1 {
+    font-size: 71px;
+    font-weight: 700;
+    line-height: 84px;
+    padding: 0 280px;
+    opacity: 90%;
+    text-align: center;
+}
+
+.hero-container h1 .h-span1 {
+    color: #FFFFFF;
+}
+
+.hero-container h1 .h-span2 {
+    color: #30B868;
+}
+
+.hero-container .hero-des {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 295px;
+}
+
+.hero-container .hero-btn {
+    padding: 12px 16px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+.hero-container .btn-container{
+    padding-bottom: 180px;
 }
 
