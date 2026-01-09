@@ -59,7 +59,7 @@ header nav .nav-btn {
 
 /* Hero section */
 .hero {
-    background: linear-gradient(rgba(0, 25, 49, 0.601), rgba(0, 25, 49, 0)), url("./assets/hero-bg.png");
+    background: linear-gradient(rgba(0, 25, 49, 0.601), rgba(0, 25, 49, 0)), url("../assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
