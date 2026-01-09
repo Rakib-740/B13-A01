@@ -22,6 +22,12 @@
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: white;
+    color: #469165;
+    transition: 0.3s;
+}
+
 /* Main styles */
 
 header nav {
@@ -49,9 +55,9 @@ header nav ul li a {
     line-height: 152%;
 }
 
-header nav ul li a:hover {
+/* header nav ul li a:hover {
     color: #469165;
-}
+} */
 
 header nav .nav-btn {
     padding: 24px 120px 0 24px;
@@ -59,7 +65,7 @@ header nav .nav-btn {
 
 /* Hero section */
 .hero {
-    background: linear-gradient(rgba(0, 25, 49, 0.601), rgba(0, 25, 49, 0)), url("../assets/hero-bg.png");
+    background: linear-gradient(rgba(0, 25, 49, 0.601), rgba(0, 25, 49, 0)), url("./assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
