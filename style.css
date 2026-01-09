@@ -121,11 +121,12 @@
     cursor: pointer;
     margin-left: 16px;
 }
-.hero-container .btn-container{
+
+.hero-container .btn-container {
     padding-bottom: 180px;
 }
 
-.notes{
+.notes {
     width: 85%;
     max-width: 1360px;
     display: flex;
@@ -133,7 +134,8 @@
     align-items: center;
     margin: auto;
 }
-.notes .note-heading{
+
+.notes .note-heading {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -143,26 +145,27 @@
 }
 
 
-.notes .note-heading h1{
+.notes .note-heading h1 {
     font-size: 48px;
     color: #001931;
     text-transform: capitalize;
 }
-.notes .note-heading p{
+
+.notes .note-heading p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
     margin-bottom: 44px;
 }
 
-.notes .card-container{
+.notes .card-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
 
-.notes .card-container .card{
+.notes .card-container .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,7 +176,7 @@
     border-radius: 8px;
 }
 
-.notes .card-container .card img{
+.notes .card-container .card img {
     width: 60px;
     height: 60px;
     color: #FFFFFF;
@@ -182,7 +185,8 @@
     padding: 14px;
     margin-bottom: 16px;
 }
-.notes .card-container .card h3{
+
+.notes .card-container .card h3 {
     font-size: 24px;
     font-weight: 600;
     text-transform: capitalize;
@@ -192,13 +196,13 @@
     color: #001931;
 }
 
-.notes .card-container .card p{
+.notes .card-container .card p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
 }
 
-.second-brain{
+.second-brain {
     /* width: 85%;
     max-width: 1360px; */
     display: flex;
@@ -206,34 +210,38 @@
     align-items: center;
     margin: auto;
 }
-.second-brain-container{
+
+.second-brain-container {
     display: flex;
     gap: 60px;
     padding: 120px;
 }
-.second-brain-container .brain-img{
+
+.second-brain-container .brain-img {
     width: 600px;
     height: 600px;
 }
 
-.second-brain-container .brain-info{
+.second-brain-container .brain-info {
     padding: 102px 0;
 }
-.second-brain-container .brain-info .brain-sub-heading{
+
+.second-brain-container .brain-info .brain-sub-heading {
     font-size: 16px;
     line-height: 20px;
     color: #469165;
     margin-bottom: 16px;
 }
 
-.second-brain-container .brain-info h1{
+.second-brain-container .brain-info h1 {
     font-size: 48px;
     color: #001931;
     margin-bottom: 16px;
     text-align: left;
     text-transform: capitalize;
 }
-.second-brain-container .brain-info .brain-des{
+
+.second-brain-container .brain-info .brain-des {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -242,23 +250,59 @@
     margin-bottom: 40px;
 }
 
-.second-brain-container .brain-info .brain-point{
+.second-brain-container .brain-info .brain-point {
     display: flex;
     flex-direction: column;
     gap: 16px;
 
 }
-.second-brain-container .brain-info .brain-point p{
+
+.second-brain-container .brain-info .brain-point p {
     font-size: 16px;
     line-height: 20px;
     color: #001931;
 }
 
-.second-brain-container .brain-info .brain-point p i{
+.second-brain-container .brain-info .brain-point p i {
     color: #30B868;
     margin-left: 6px;
 }
 
+.challenge {
+    background-color: #F7F6F2;
+    margin: 0px 120px 120px 120px;
+    border-radius: 12px;
+}
 
+.challenge .challenge-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
 
+.challenge-container .challenge-content {
+    padding: 80px 40px;
+}
 
+.challenge-container .challenge-content h1 {
+    font-size: 40px;
+    color: #001931;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.challenge-content .challenge-content-des {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.challenge-content .challenge-content-des-last {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.challenge-content button{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
