@@ -24,17 +24,17 @@
 
 /* Main styles */
 
-.navber nav {
+header nav {
     display: flex;
     justify-content: space-between;
     background-color: #FFFFFF;
 }
 
-.navber nav img {
+header nav img {
     padding: 16px 0 16px 120px;
 }
 
-.navber nav ul {
+header nav ul {
     display: flex;
     list-style: none;
     gap: 32px;
@@ -42,36 +42,35 @@
     opacity: 0.9;
 }
 
-.navber nav ul li a {
+header nav ul li a {
     text-decoration: none;
     color: #000000;
     font-size: 16px;
     line-height: 152%;
 }
 
-.navber nav ul li a:hover {
+header nav ul li a:hover {
     color: #469165;
 }
 
-.navber nav .nav-btn {
+header nav .nav-btn {
     padding: 24px 120px 0 24px;
 }
 
+/* Hero section */
 .hero {
-    background: url("../assets/hero-bg.png"), rgba(0, 25, 49, 0.8);
-    ;
+    background: url("../assets/hero-bg.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    /* height: 500px; */
 }
 
 .hero-container {
-    width: 85%;
     max-width: 1360px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: center;
-    margin: 0px 120px 0px 120px;
+    margin: auto;
 }
 
 .hero-container .sub-heading {
@@ -121,18 +120,27 @@
     cursor: pointer;
     margin-left: 16px;
 }
+.hero-container .hero-btn:hover {
+    background-color: #FFFFFF;
+    color: #469165;
+    transition: 0.3s;
+}
 
 .hero-container .btn-container {
     padding-bottom: 180px;
 }
 
-.notes {
-    width: 85%;
+/* Notes section */
+/* .notes {
+} */
+
+.notes-container{
     max-width: 1360px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+
 }
 
 .notes .note-heading {
@@ -202,19 +210,20 @@
     color: #627382;
 }
 
+
+/* Second brain section */
 .second-brain {
-    /* width: 85%;
-    max-width: 1360px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 120px auto;
 }
 
 .second-brain-container {
+    max-width: 1360px;
     display: flex;
     gap: 60px;
-    padding: 120px;
+    /* padding: 120px; */
 }
 
 .second-brain-container .brain-img {
@@ -231,6 +240,7 @@
     line-height: 20px;
     color: #469165;
     margin-bottom: 16px;
+    text-align: left;
 }
 
 .second-brain-container .brain-info h1 {
@@ -239,6 +249,7 @@
     margin-bottom: 16px;
     text-align: left;
     text-transform: capitalize;
+    padding-right: 50px;
 }
 
 .second-brain-container .brain-info .brain-des {
@@ -247,6 +258,7 @@
     line-height: 20px;
     color: #627382;
     text-align: left;
+    padding-right: 190px;
     margin-bottom: 40px;
 }
 
@@ -268,15 +280,18 @@
     margin-left: 6px;
 }
 
+/* Challenge section */
 .challenge {
-    background-color: #F7F6F2;
-    margin: 0px 120px 120px 120px;
-    border-radius: 12px;
+    margin: 0 auto 120px auto;
 }
 
 .challenge .challenge-container {
+    border-radius: 12px;
+    background-color: #F7F6F2;
+    max-width: 1360px;
     display: flex;
     flex-direction: column;
+    margin: auto;
     gap: 16px;
     text-align: center;
 }
@@ -309,7 +324,7 @@
     margin-bottom: 16px;
 }
 
-
+/* Footer section */
 footer {
     background-color: #001931;
 }
