@@ -59,7 +59,9 @@ header nav .nav-btn {
 
 /* Hero section */
 .hero {
-    background: url("./Assets/hero-bg.png"),rgba(0, 25, 49, 0.8);
+    background: linear-gradient(rgba(0, 25, 49, 0.601), rgba(0, 25, 49, 0)), url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -119,6 +121,7 @@ header nav .nav-btn {
     cursor: pointer;
     margin-left: 16px;
 }
+
 .hero-container .hero-btn:hover {
     background-color: #FFFFFF;
     color: #469165;
@@ -133,7 +136,7 @@ header nav .nav-btn {
 /* .notes {
 } */
 
-.notes-container{
+.notes-container {
     max-width: 1360px;
     display: flex;
     flex-direction: column;
@@ -338,23 +341,25 @@ footer .footer-container {
     padding: 120px 120px 30px 120px;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     justify-content: space-between;
 }
-.footer-content .social-footer h2{
+
+.footer-content .social-footer h2 {
     font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
     margin-bottom: 16px;
 }
 
-.footer-content .social-footer .icon{
+.footer-content .social-footer .icon {
     display: flex;
-    gap: 16px;;
+    gap: 16px;
+    ;
 }
 
-.footer-content .social-footer .icon a{
+.footer-content .social-footer .icon a {
     height: 20px;
     width: 20px;
     text-decoration: none;
@@ -364,7 +369,7 @@ footer .footer-container {
     /* padding: 2px; */
 }
 
-.copy-right{
+.copy-right {
     text-align: center;
     font-size: 16px;
     line-height: 24px;
