@@ -59,7 +59,7 @@ header nav .nav-btn {
 
 /* Hero section */
 .hero {
-    background: url("../assets/hero-bg.png"),rgba(0, 25, 49, 0.8);
+    background: url("./Assets/hero-bg.png"),rgba(0, 25, 49, 0.8);
     background-repeat: no-repeat;
 }
 
@@ -229,6 +229,7 @@ header nav .nav-btn {
 .second-brain-container .brain-img {
     width: 600px;
     height: 600px;
+    border-radius: 12px;
 }
 
 .second-brain-container .brain-info {
