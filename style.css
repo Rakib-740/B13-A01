@@ -381,3 +381,8 @@ footer .footer-container {
     line-height: 24px;
     color: #FAFAFA;
 }
+
+.copy-right hr{
+    opacity: 0.2;
+    margin-bottom: 30px;
+}
